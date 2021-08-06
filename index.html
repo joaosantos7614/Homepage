@@ -191,54 +191,50 @@
             <!-- Contact Section Form-->
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-xl-7">
-                    
-                    <form id="contactForm" action="https://formspree.io/f/mrgryjlo" method="post">
+
+                    <!-- <form id="contactForm" action="https://formspree.io/f/mrgryjlo" method="post"> -->
+                    <form action="https://formspree.io/f/mrgryjlo" method="post">
                         <!-- Name input-->
                         <div class="form-floating mb-3">
                             <input name="nome" class="form-control" id="name" type="text" placeholder="Nome..."
-                                data-sb-validations="required" required/>
+                                required>
                             <label for="name">Nome</label>
-                            <div class="invalid-feedback" data-sb-feedback="name:required">É necessário um nome</div>
                         </div>
                         <!-- Email address input-->
                         <div class="form-floating mb-3">
-                            <input name="email" class="form-control" id="email" type="email" placeholder="name@example.com"
-                                data-sb-validations="required,email"  required/>
+                            <input name="email" class="form-control" id="email" type="email"
+                                placeholder="name@example.com" required>
                             <label for="email">Email</label>
-                            <div class="invalid-feedback" data-sb-feedback="email:required">É necessário um Email</div>
-                            <div class="invalid-feedback" data-sb-feedback="email:email">Email não válido</div>
                         </div>
 
                         <!-- Message input-->
                         <div class="form-floating mb-3">
                             <textarea name="mensagem" class="form-control" id="message" type="text"
-                                placeholder="Escreve a tua mensagem aqui..." style="height: 10rem"
-                                data-sb-validations="required" required></textarea>
+                                placeholder="Escreve a tua mensagem aqui..." style="height: 10rem" required></textarea>
                             <label for="message">Messagem</label>
-                            <div class="invalid-feedback" data-sb-feedback="message:required">É necessária uma mensagem
-                            </div>
                         </div>
                         <!-- Submit success message-->
                         <!---->
                         <!-- This is what your users will see when the form-->
                         <!-- has successfully submitted-->
+                        <!--
                         <div class="d-none" id="submitSuccessMessage">
                             <div class="text-center mb-3">
                                 <div class="fw-bolder">Mensagem Enviada!</div>
-                                
+
                             </div>
-                        </div>
+                        </div> -->
                         <!-- Submit error message-->
                         <!---->
                         <!-- This is what your users will see when there is-->
                         <!-- an error submitting the form-->
-                        <div class="d-none" id="submitErrorMessage">
+                        <!-- <div class="d-none" id="submitErrorMessage">
                             <div class="text-center text-danger mb-3">Erro ao enviar a mensagem...</div>
-                        </div>
+                        </div>   -->
                         <!-- Submit Button-->
-                        
 
-                        <button class="btn btn-primary btn-xl" id="submitButton" type="submit">Enviar</button>
+
+                        <button type="submit" class="btn btn-primary btn-xl">Enviar</button>
                     </form>
                 </div>
             </div>
