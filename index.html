@@ -106,6 +106,14 @@
             </div>
             <!-- Skills Grid Items-->
             <div class="row row-cols-3 justify-content-center">
+                
+                <!-- Skills Item 0-->
+                <!-- <div class="col-md-6 col-lg-4 mb-2 mb-md-4"> -->
+                    <div class="col-4 col-md-2 col-lg-2 mb-2 mb-md-4">
+                        <div class="skills-item mx-auto">
+                            <img class="img-fluid" src="assets/img/portfolio/outsystems.png" alt="outsystems" />
+                        </div>
+                    </div>
                 <!-- Skills Item 1-->
                 <!-- <div class="col-md-6 col-lg-4 mb-2 mb-md-4"> -->
                 <div class="col-4 col-md-2 col-lg-2 mb-2 mb-md-4">
@@ -130,6 +138,12 @@
                 <div class="col-4 col-md-2 col-lg-2 mb-2 mb-md-4">
                     <div class="skills-item mx-auto">
                         <img class="img-fluid" src="assets/img/portfolio/html.png" alt="..." />
+                    </div>
+                </div>
+                <!-- Skills Item 4a-->
+                <div class="col-4 col-md-2 col-lg-2 mb-2 mb-md-4">
+                    <div class="skills-item mx-auto">
+                        <img class="img-fluid" src="assets/img/portfolio/css.png" alt="..." />
                     </div>
                 </div>
                 <!-- Skills Item 5-->
@@ -164,6 +178,17 @@
             </div>
             <!-- Portfolio Grid Items-->
             <div class="row justify-content-center">
+                <!-- Portfolio Item 7-->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal7">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/wavePt.png" alt="..." />
+                    </div>
+                </div>
                 <!-- Portfolio Item 6-->
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
@@ -445,7 +470,7 @@
                                 <!-- Portfolio Modal - Image-->
                                 <img class="img-fluid rounded mb-5" src="assets/img/portfolio/lisbonTemperature.png" alt="..." />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-4">ASP.NET MVC Web App that uses HTML scraping to read the air temperature in Faro from a public website. The backend uses regex filtering and the ScrapySharp framework. <a href="https://lisbontemperature.azurewebsites.net/" target="_blank">Try It!</a></p>
+                                <p class="mb-4">ASP.NET MVC Web App that uses HTML scraping to read the air temperature in Lisbon from a public website. The backend uses regex filtering and the ScrapySharp framework. <a href="https://lisbontemperature.azurewebsites.net/" target="_blank">Try It!</a></p>
                                 <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                     <i class="fas fa-times fa-fw"></i>
                                     Close Window
@@ -515,7 +540,41 @@
                                 <!-- Portfolio Modal - Image-->
                                 <img class="img-fluid rounded mb-5" src="assets/img/portfolio/glasscalc_card.png" alt="..." />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-4">ASP.NET MVC Web App that generated random excuses. The backend uses LINQ to get the correct values from a data repository class. <a href="https://glasscalc.azurewebsites.net/" target="_blank">Try It!</a></p>
+                                <p class="mb-4">This Web App uses the ASP.NET Core MVC framework. The model has a hardcoded repository class with all the needed tables (75 entries), the values are then filtered using Linq according to the input values, and a linear interpolation method is used whenever needed. The backend is programmed in C#, the views use HTML with Razor syntax, and the styling is done with Bootstrap. <a href="https://glasscalc.azurewebsites.net/" target="_blank">Try It!</a></p>
+                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 7-->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" aria-labelledby="portfolioModal7"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Wave PT</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/wavePt.png" alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">An Outsystems Web App that shows sea conditions forecast for the main coastral places in Portugal. I does this by regularly calling the Ipma Web API, and storing the values in a database, overwriting the previous forecast data. In the future I want to build an alert system that will send an email for given forecast trigger conditions inputer by the user. <a href="https://personal-0kioaskk.outsystemscloud.com/WavePT/" target="_blank">Try It!</a></p>
                                 <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                     <i class="fas fa-times fa-fw"></i>
                                     Close Window
